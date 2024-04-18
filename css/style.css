@@ -29,7 +29,6 @@
     background-size: contain;
 }
 
-
 /*** Spinner ***/
 #spinner {
     opacity: 0;
@@ -46,7 +45,7 @@
 
 
 /*** Button ***/
-.btn {
+/* .btn {
     font-weight: 500;
     transition: .5s;
 }
@@ -81,8 +80,7 @@
     align-items: center;
     justify-content: center;
     font-weight: normal;
-}
-
+} */
 
 /*** Navbar ***/
 .fixed-top {
@@ -105,7 +103,7 @@
 
 .navbar .navbar-nav .nav-link {
     padding: 25px 15px;
-    color: #555555;
+    color: #ffffff;
     font-weight: 800;
     outline: none;
 }
@@ -119,11 +117,12 @@
     .navbar .navbar-nav {
         margin-top: 10px;
         border-top: 1px solid rgba(0, 0, 0, .07);
-        background: #FFFFFF;
+        background: #ffffff;
     }
 
     .navbar .navbar-nav .nav-link {
         padding: 10px 0;
+        color: #000000;
     }
 }
 
