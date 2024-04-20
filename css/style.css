@@ -1,3 +1,11 @@
+@import url('wun Dodumhttps://fonts.googleapis.com/css2?family=Alkalami&family=Anton&family=Black+Han+Sans&family=Dongle&family=Gloria+Hallelujah&family=Hahmlet&family=Noto+Serif+KR:wght@500&family=Poppins:wght@300&family=Stylish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Anton&family=Black+Han+Sans&family=Dongle&family=Gloria+Hallelujah&family=Gowun+Dodum&family=Hahmlet&family=Noto+Serif+KR:wght@500&family=Poppins:wght@300&family=Stylish&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=IBM+Plex+Sans+KR&family=Noto+Sans+KR:wght@300;400;500&family=Poppins:wght@700&family=Roboto:wght@100;300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=IBM+Plex+Sans+KR&family=Jua&family=Noto+Sans+KR:wght@300;400;500&family=Poppins:wght@700&family=Roboto:wght@100;300;400;500;700&display=swap');
+
+*{
+    font-family: 'Gowun Dodum', sans-serif;
+}
 /********** Template CSS **********/
 :root {
     --primary: #3CB815;
@@ -15,13 +23,13 @@
 }
 
 .my-6 {
-    margin-top: 6rem;
+    margin-top: 5.5rem;
     margin-bottom: 6rem;
 }
 
 .py-6 {
-    padding-top: 6rem;
-    padding-bottom: 6rem;
+    padding-top: 4.5rem;
+    padding-bottom: 4rem;
 }
 
 .bg-icon {
@@ -103,7 +111,7 @@
 
 .navbar .navbar-nav .nav-link {
     padding: 25px 15px;
-    color: #ffffff;
+    color: #000000;
     font-weight: 800;
     outline: none;
 }
@@ -113,6 +121,26 @@
     color: var(--dark);
 }
 
+.col-lg-7 h3{
+    color:#000000;
+    margin-left: 0px;
+    margin-top: -210px;
+    background-color: rgba(255, 255, 255, 0.85);
+    position: absolute;
+    padding: 10px;
+    border-radius: 10px;    
+}
+
+.carousel-item h3 span{
+    line-height: 1.8;
+}
+
+.bg-white .mb-3{
+    line-height: 2;
+}
+.bg-white .mb-4{
+    line-height: 1.8;
+}
 @media (max-width: 991.98px) {
     .navbar .navbar-nav {
         margin-top: 10px;
@@ -171,6 +199,7 @@
     background-color: var(--primary);
     border: 10px solid var(--primary);
     border-radius: 3rem;
+    margin-top: 350px;
 }
 
 @media (max-width: 768px) {
@@ -185,6 +214,9 @@
         height: 100%;
         object-fit: cover;
     }
+    .col-lg-7 h3{
+        font-size: 15px;
+    }
 }
 
 .page-header {
@@ -197,12 +229,15 @@
 .breadcrumb-item+.breadcrumb-item::before {
     color: #999999;
 }
-
+.text2{
+    line-height:2;
+}
 
 /*** Section Header ***/
 .section-header {
     position: relative;
     padding-top: 25px;
+    
 }
 
 .section-header::before {
@@ -336,3 +371,8 @@
     background: var(--primary);
 }
 
+.carousel__slide {
+    width: 100%;
+    padding: 0;
+    overflow:auto;
+}

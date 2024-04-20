@@ -1,0 +1,730 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>사진첩</title>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="" name="keywords">
+    <meta content="" name="description">
+
+
+    <!--슬라이드 실험-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+    <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"> -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <!-- Favicon -->
+    <link href="img/favicon.ico" rel="icon">
+
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Lora:wght@600;700&display=swap" rel="stylesheet"> 
+
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Spinner Start -->
+    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+        <div class="spinner-border text-primary" role="status"></div>
+    </div>
+    <!-- Spinner End -->
+
+    <!-- Navbar Start -->
+    <div class="container-fluid fixed-top px-0 wow fadeIn" data-wow-delay="0.1s">
+        <nav class="navbar navbar-expand-lg navbar-light py-lg-0 px-lg-5 wow fadeIn" data-wow-delay="0.1s">
+            <a href="index.html" class="navbar-brand ms-4 ms-lg-0">
+                <h1 class="fw-bold text-primary m-0">행복지름길<span class="text-secondary">오른쪽</span>클릭☞</h1>
+            </a>
+            <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto p-4 p-lg-0">  
+                    <a href="index.html" class="nav-item nav-link">홈으로</a>  
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">마음공부</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="pomnyunsunim.html" class="dropdown-item">즉문즉설Best</a>
+                            <a href="pomnyunsunim2.html" class="dropdown-item">좋은글</a>
+                        </div>
+                    </div>  
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">사진첩</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="picture1.html" class="dropdown-item">2000~2015(上)</a>
+                            <a href="picture2.html" class="dropdown-item">2015(下)~</a>
+                        </div>
+                    </div>    
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">휴식</a>
+                        <div class="dropdown-menu m-0">
+                            <a href="music1.html" class="dropdown-item">명상음악</a>
+                            <a href="music2.html" class="dropdown-item">찬불가</a>
+                            <a href="music3.html" class="dropdown-item">트로트</a>
+                            <a href="music4.html" class="dropdown-item">최신가요</a>
+                        </div>
+                    </div>          
+                </div>
+            </div>
+        </nav>
+    </div>
+    <!-- Navbar End -->
+
+     <!-- Page Header Start -->
+    <div class="container-fluid page-header wow fadeIn" data-wow-delay="0.1s">
+        <div class="container">
+            <h1 class="display-3 mb-3 animated slideInDown">사진첩(2000~2015년 하반기)</h1>
+            <!-- <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb mb-0">
+                    <li class="breadcrumb-item"><a class="text-body" href="https://www.youtube.com/user/jtinfo5">즉문즉설</a></li>
+                    <li class="breadcrumb-item"><a class="text-body" href="https://www.youtube.com/@JungtoOrg">희망세상만들기</a></li>
+                    <li class="breadcrumb-item"><a class="text-body" href="https://blog.naver.com/pomnyun">블로그</a></li>
+                </ol>
+            </nav> -->
+        </div>
+    </div>
+    <!-- Page Header End --> 
+
+    <!-- Blog Start -->
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="section-header text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <h1 class="display-5 mb-3">일상을 보내주세요.</h1>
+                <p>이미지를 클릭해 보세요.</p>
+            </div>
+            <div class="row g-4">
+
+                <!--9-->
+                <div id="mainCarousel" class="carousel w-10/12 max-w-5xl mx-auto col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" >
+                    <a href="">   
+                        <div class="carousel__slide" data-src="img_picture/1/j3.jpg" data-fancybox="gallery9">
+                            <img src="img_picture/1/j03.jpg" class="cursor" id="pick">
+                        </div>
+                    </a> 
+                        <div class="carousel__slide" data-src="img_picture/1/to5.jpg" data-fancybox="gallery9">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/to5.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/un7.jpg" data-fancybox="gallery9">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/un7.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/to6.jpg" data-fancybox="gallery9">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/to6.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/s9.jpg" data-fancybox="gallery9">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/s9.jpg" />
+                            </div>										
+                        </div>
+                        
+                        
+                    <div class="bg-light p-4">
+                        <a class="d-block h5 lh-base mb-4">외식하고 야산에서</a>
+                        <div class="text-muted border-top pt-4">
+                            <small class="me-3"><i class="fa fa-user text-primary me-2"></i>식구</small>
+                            <br><small class="me-3"><i class="fa fa-calendar text-primary me-2"></i>2015(上)</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!--8-->
+                <div id="mainCarousel" class="carousel w-10/12 max-w-5xl mx-auto col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" >
+                    <a href="">   
+                        <div class="carousel__slide" data-src="img_picture/1/un4.jpg" data-fancybox="gallery8">
+                            <img src="img_picture/1/un04.jpg" class="cursor" id="pick">
+                        </div>
+                    </a> 
+                        <div class="carousel__slide" data-src="img_picture/1/un5.jpg" data-fancybox="gallery8">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/un5.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/b18.jpg" data-fancybox="gallery8">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/b18.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/y1.jpg" data-fancybox="gallery8">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/y1.jpg" />
+                            </div>										
+                        </div>  
+                        <div class="carousel__slide" data-src="img_picture/1/un6.jpg" data-fancybox="gallery8">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/un6.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/to1.jpg" data-fancybox="gallery8">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/to1.jpg" />
+                            </div>										
+                        </div>  
+                        <div class="carousel__slide" data-src="img_picture/1/b19.jpg" data-fancybox="gallery8">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/b19.jpg" />
+                            </div>										
+                        </div>  
+                        <div class="carousel__slide" data-src="img_picture/1/b20.jpg" data-fancybox="gallery8">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/b20.jpg" />
+                            </div>										
+                        </div> 
+                        <div class="carousel__slide" data-src="img_picture/1/s5.jpg" data-fancybox="gallery8">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/s5.jpg" />
+                            </div>										
+                        </div>  
+                        <div class="carousel__slide" data-src="img_picture/1/b21.jpg" data-fancybox="gallery8">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/b21.jpg" />
+                            </div>										
+                        </div>                          
+                        <div class="carousel__slide" data-src="img_picture/1/d3.jpg" data-fancybox="gallery8">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/d3.jpg" />
+                            </div>										
+                        </div>    
+                        <div class="carousel__slide" data-src="img_picture/1/f7.jpg" data-fancybox="gallery8">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/f7.jpg" />
+                            </div>										
+                        </div>
+                        
+                          
+                        
+                    <div class="bg-light p-4">
+                        <a class="d-block h5 lh-base mb-4">숙부님들과 등산</a>
+                        <div class="text-muted border-top pt-4">
+                            <small class="me-3"><i class="fa fa-user text-primary me-2"></i>식구</small>
+                            <br><small class="me-3"><i class="fa fa-calendar text-primary me-2"></i>2014(下)</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!--7-->
+                <div id="mainCarousel" class="carousel w-10/12 max-w-5xl mx-auto col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" >
+                    <a href="">   
+                        <div class="carousel__slide" data-src="img_picture/1/s3.jpg" data-fancybox="gallery7">
+                            <img src="img_picture/1/s03.jpg" class="cursor" id="pick">
+                        </div>
+                    </a> 
+                        <div class="carousel__slide" data-src="img_picture/1/s4.jpg" data-fancybox="gallery7">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/s4.jpg" />
+                            </div>										
+                        </div>  
+                        <div class="carousel__slide" data-src="img_picture/1/f8.jpg" data-fancybox="gallery7">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/f8.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/to2.jpg" data-fancybox="gallery7">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/to2.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/f9.jpg" data-fancybox="gallery7">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/f9.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/s6.jpg" data-fancybox="gallery7">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/s6.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/s8.jpg" data-fancybox="gallery7">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/s8.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/f2.jpg" data-fancybox="gallery7">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/f2.jpg" />
+                            </div>										
+                        </div>  
+                        <div class="carousel__slide" data-src="img_picture/1/f3.jpg" data-fancybox="gallery7">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/f3.jpg" />
+                            </div>										
+                        </div> 
+                        <div class="carousel__slide" data-src="img_picture/1/j2.jpg" data-fancybox="gallery7">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/j2.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/b17.jpg" data-fancybox="gallery7">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/b17.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/un2.jpg" data-fancybox="gallery7">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/un2.jpg" />
+                            </div>										
+                        </div> 
+                        <div class="carousel__slide" data-src="img_picture/1/un3.jpg" data-fancybox="gallery7">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/un3.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/f4.jpg" data-fancybox="gallery7">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/f4.jpg" />
+                            </div>										
+                        </div>   
+                        <div class="carousel__slide" data-src="img_picture/1/f5.jpg" data-fancybox="gallery7">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/f5.jpg" />
+                            </div>										
+                        </div> 
+                        <div class="carousel__slide" data-src="img_picture/1/f6.jpg" data-fancybox="gallery7">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/f6.jpg" />
+                            </div>										
+                        </div> 
+                        <div class="carousel__slide" data-src="img_picture/1/study.jpg" data-fancybox="gallery7">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/study.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/to4.jpg" data-fancybox="gallery7">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/to4.jpg" />
+                            </div>										
+                        </div>
+                           
+                    
+                    <div class="bg-light p-4">
+                        <a class="d-block h5 lh-base mb-4">우리집 공주</a>
+                        <div class="text-muted border-top pt-4">
+                            <small class="me-3"><i class="fa fa-user text-primary me-2"></i>식구</small>
+                            <br><small class="me-3"><i class="fa fa-calendar text-primary me-2"></i>2014(上)</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!--6-->
+                <div id="mainCarousel" class="carousel w-10/12 max-w-5xl mx-auto col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" >
+                    <a href="">   
+                        <div class="carousel__slide" data-src="img_picture/1/ks0.jpg" data-fancybox="gallery6">
+                            <img src="img_picture/1/ks00.jpg" class="cursor" id="pick">
+                        </div>
+                    </a>     
+                        <div class="carousel__slide" data-src="img_picture/1/ks2.jpg" data-fancybox="gallery6">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/ks2.jpg" />
+                            </div>										
+                        </div>  
+                        <div class="carousel__slide" data-src="img_picture/1/ks1.jpg" data-fancybox="gallery6">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/ks1.jpg" />
+                            </div>										
+                        </div>		
+                        <div class="carousel__slide" data-src="img_picture/1/s2.jpg" data-fancybox="gallery6">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/s2.jpg" />
+                            </div>										
+                        </div>  
+                        <div class="carousel__slide" data-src="img_picture/1/k12.jpg" data-fancybox="gallery6">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/k12.jpg" />
+                            </div>										
+                        </div>     
+                        <div class="carousel__slide" data-src="img_picture/1/un1.jpg" data-fancybox="gallery6">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/un1.jpg" />
+                            </div>										
+                        </div>  
+                        <div class="carousel__slide" data-src="img_picture/1/s7.jpg" data-fancybox="gallery6">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/s7.jpg" />
+                            </div>										
+                        </div>   
+                        <div class="carousel__slide" data-src="img_picture/1/k10.jpg" data-fancybox="gallery6">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/k10.jpg" />
+                            </div>										
+                        </div>   
+                    
+                    <div class="bg-light p-4">
+                        <a class="d-block h5 lh-base mb-4">마미와 딸</a>
+                        <div class="text-muted border-top pt-4">
+                            <small class="me-3"><i class="fa fa-user text-primary me-2"></i>왕비와 공주</small>
+                            <br><small class="me-3"><i class="fa fa-calendar text-primary me-2"></i>2013</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!--5-->
+                <div id="mainCarousel" class="carousel w-10/12 max-w-5xl mx-auto col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" >
+                    <a href="">   
+                        <div class="carousel__slide" data-src="img_picture/1/country.jpg" data-fancybox="gallery5">
+                            <img src="img_picture/1/country.jpg" class="cursor" id="pick">
+                        </div>
+                    </a>     
+                        <div class="carousel__slide" data-src="img_picture/1/b12.jpg" data-fancybox="gallery5">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/b12.jpg" />
+                            </div>										
+                        </div>		
+                        <div class="carousel__slide" data-src="img_picture/1/b13.jpg" data-fancybox="gallery5">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/b13.jpg" />
+                            </div>										
+                        </div>        
+                        <div class="carousel__slide" data-src="img_picture/1/b14.jpg" data-fancybox="gallery5">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/b14.jpg" />
+                            </div>										
+                        </div>     
+                        <div class="carousel__slide" data-src="img_picture/1/b15.jpg" data-fancybox="gallery5">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/b15.jpg" />
+                            </div>										
+                        </div>     
+                        <div class="carousel__slide" data-src="img_picture/1/fruit.jpg" data-fancybox="gallery5">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/fruit.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/b16.jpg" data-fancybox="gallery5">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/b16.jpg" />
+                            </div>										
+                        </div>   
+                        <div class="carousel__slide" data-src="img_picture/1/un0.jpg" data-fancybox="gallery5">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/un0.jpg" />
+                            </div>										
+                        </div>  
+                        <div class="carousel__slide" data-src="img_picture/1/d4.jpg" data-fancybox="gallery5">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/d4.jpg" />
+                            </div>										
+                        </div>  
+                        <div class="carousel__slide" data-src="img_picture/1/to3.jpg" data-fancybox="gallery5">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/to3.jpg" />
+                            </div>										
+                        </div>  
+                                 
+                    
+                    <div class="bg-light p-4">
+                        <a class="d-block h5 lh-base mb-4">감사한 보금자리</a>
+                        <div class="text-muted border-top pt-4">
+                            <small class="me-3"><i class="fa fa-user text-primary me-2"></i>숙부님들</small>
+                            <br><small class="me-3"><i class="fa fa-calendar text-primary me-2"></i>2012</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!--4-->
+                <div id="mainCarousel" class="carousel w-10/12 max-w-5xl mx-auto col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" >
+                    <a href="">   
+                        <div class="carousel__slide" data-src="img_picture/1/b7.jpg" data-fancybox="gallery4">
+                            <img src="img_picture/1/b07.jpg" class="cursor" id="pick">
+                        </div>
+                    </a>     
+                        <div class="carousel__slide" data-src="img_picture/1/apt1.jpg" data-fancybox="gallery4">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/apt1.jpg" />
+                            </div>										
+                        </div>		
+                        <div class="carousel__slide" data-src="img_picture/1/apt2.jpg" data-fancybox="gallery4">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/apt2.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/apt3.jpg" data-fancybox="gallery4">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/apt3.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/apt4.jpg" data-fancybox="gallery4">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/apt4.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/apt5.jpg" data-fancybox="gallery4">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/apt5.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/apt6.jpg" data-fancybox="gallery4">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/apt6.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/apt7.jpg" data-fancybox="gallery4">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/apt7.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/apt8.jpg" data-fancybox="gallery4">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/apt8.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/apt9.jpg" data-fancybox="gallery4">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/apt9.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/b8.jpg" data-fancybox="gallery4">
+                            <div style="display: none;">
+                                <img src="img_picture/1/b8.jpg" />
+                            </div>
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/b9.jpg" data-fancybox="gallery4">
+                            <div style="display: none;">
+                                <img src="img_picture/1/b9.jpg" />
+                            </div>
+                        </div>	
+                        <div class="carousel__slide" data-src="img_picture/1/b10.jpg" data-fancybox="gallery4">
+                            <div style="display: none;">
+                                <img src="img_picture/1/b10.jpg" />
+                            </div>
+                        </div>	
+                        <div class="carousel__slide" data-src="img_picture/1/b11.jpg" data-fancybox="gallery4">
+                            <div style="display: none;">
+                                <img src="img_picture/1/b11.jpg" />
+                            </div>
+                        </div>		
+                        <div class="carousel__slide" data-src="img_picture/1/b06.jpg" data-fancybox="gallery4">
+                            <div style="display: none;">
+                                <img src="img_picture/1/b06.jpg" />
+                            </div>
+                        </div>	
+                    
+                    <div class="bg-light p-4">
+                        <a class="d-block h5 lh-base mb-4">쌍용아파트 굿바이</a>
+                        <div class="text-muted border-top pt-4">
+                            <small class="me-3"><i class="fa fa-user text-primary me-2"></i>숙부님들</small>
+                            <br><small class="me-3"><i class="fa fa-calendar text-primary me-2"></i>2011</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--3-->
+                <div id="mainCarousel" class="carousel w-10/12 max-w-5xl mx-auto col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" >
+                    <a href="">   
+                        <div class="carousel__slide" data-src="img_picture/1/b0.jpg" data-fancybox="gallery1">
+                            <img src="img_picture/1/b0.jpg" class="cursor" id="pick">
+                        </div>
+                    </a>     
+                        <div class="carousel__slide" data-src="img_picture/1/b1.jpg" data-fancybox="gallery1">
+                            <div style="display: none;">
+                                <img src="img_picture/1/b1.jpg" />
+                            </div>
+                        </div>										
+                        <div class="carousel__slide" data-src="img_picture/1/b2.jpg" data-fancybox="gallery1">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/b2.jpg" />
+                            </div>										
+                        </div>	
+                        <div class="carousel__slide" data-src="img_picture/1/b3.jpg" data-fancybox="gallery1">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/b3.jpg" />
+                            </div>										
+                        </div>			
+                        <div class="carousel__slide" data-src="img_picture/1/b4.jpg" data-fancybox="gallery1">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/b4.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/b5.jpg" data-fancybox="gallery1">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/b5.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/j1.jpg" data-fancybox="gallery1">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/j1.jpg" />
+                            </div>										
+                        </div>									
+                    
+                    <div class="bg-light p-4">
+                        <a class="d-block h5 lh-base mb-4">젊은 태봉스님</a>
+                        <div class="text-muted border-top pt-4">
+                            <small class="me-3"><i class="fa fa-user text-primary me-2"></i>태봉숙부</small>
+                            <br><small class="me-3"><i class="fa fa-calendar text-primary me-2"></i>2008~2010</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <!--2-->
+                <div id="mainCarousel" class="carousel w-10/12 max-w-5xl mx-auto col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" >
+                    <a href="">   
+                        <div class="carousel__slide" data-src="img_picture/1/k00.jpg" data-fancybox="gallery2">
+                            <img src="img_picture/1/k00.jpg" class="cursor" id="pick">
+                        </div>
+                    </a>     
+                        <div class="carousel__slide" data-src="img_picture/1/k0.jpg" data-fancybox="gallery2">
+                            <div style="display: none;">
+                                <img src="img_picture/1/k0.jpg" />
+                            </div>
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/k1.jpg" data-fancybox="gallery2">
+                            <div style="display: none;">
+                                <img src="img_picture/1/k1.jpg" />
+                            </div>
+                        </div>										
+                        <div class="carousel__slide" data-src="img_picture/1/k2.jpg" data-fancybox="gallery2">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/k2.jpg" />
+                            </div>										
+                        </div>	
+                        <div class="carousel__slide" data-src="img_picture/1/k3.jpg" data-fancybox="gallery2">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/k3.jpg" />
+                            </div>										
+                        </div>			
+                        <div class="carousel__slide" data-src="img_picture/1/k4.jpg" data-fancybox="gallery2">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/k4.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/k5.jpg" data-fancybox="gallery2">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/k5.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/k6.jpg" data-fancybox="gallery2">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/k6.jpg" />
+                            </div>										
+                        </div>
+                        <div class="carousel__slide" data-src="img_picture/1/k7.jpg" data-fancybox="gallery2">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/k7.jpg" />
+                            </div>										
+                        </div>	
+                        <div class="carousel__slide" data-src="img_picture/1/k8.jpg" data-fancybox="gallery2">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/k8.jpg" />
+                            </div>										
+                        </div>	
+                        <div class="carousel__slide" data-src="img_picture/1/k9.jpg" data-fancybox="gallery2">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/k9.jpg" />
+                            </div>										
+                        </div>										
+                    
+                    <div class="bg-light p-4">
+                        <a class="d-block h5 lh-base mb-4">젊은 엄마</a>
+                        <div class="text-muted border-top pt-4">
+                            <small class="me-3"><i class="fa fa-user text-primary me-2"></i>여왕마마</small>
+                            <br><small class="me-3"><i class="fa fa-calendar text-primary me-2"></i>2008~2010</small>
+                        </div>
+                    </div>
+                </div>
+
+                <!--1-->
+                <div id="mainCarousel" class="carousel w-10/12 max-w-5xl mx-auto col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s" >
+                    <a href="">   
+                        <div class="carousel__slide" data-src="img_picture/1/f.jpg" data-fancybox="gallery3">
+                            <img src="img_picture/1/f0.jpg" class="cursor" id="pick">
+                        </div>
+                    </a>     
+                        <div class="carousel__slide" data-src="img_picture/1/s1.jpg" data-fancybox="gallery3">
+                            <div style="display: none;">
+                                <img src="img_picture/1/s1.jpg" />
+                            </div>
+                        </div>		
+                        <div class="carousel__slide" data-src="img_picture/1/d2.jpg" data-fancybox="gallery3">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/d2.jpg" />
+                            </div>										
+                        </div>						
+                        <div class="carousel__slide" data-src="img_picture/1/d1.jpg" data-fancybox="gallery3">												
+                            <div style="display: none;">
+                                <img src="img_picture/1/d1.jpg" />
+                            </div>										
+                        </div>	
+                    
+                    <div class="bg-light p-4">
+                        <a class="d-block h5 lh-base mb-4">오빠랑 나</a>
+                        <div class="text-muted border-top pt-4">
+                            <small class="me-3"><i class="fa fa-user text-primary me-2"></i>가족사진</small>
+                            <br><small class="me-3"><i class="fa fa-calendar text-primary me-2"></i>2003?~</small>
+                        </div>
+                    </div>
+                </div>
+                
+                					  
+                
+
+
+            </div>
+        </div>
+    </div>
+    <!-- Blog End -->
+
+    <!-- Back to Top -->
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="lib/wow/wow.min.js"></script>
+    <script src="lib/easing/easing.min.js"></script>
+    <script src="lib/waypoints/waypoints.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+
+    <!-- Template Javascript -->
+    <script src="js/main.js"></script>
+
+
+
+    <!--슬라이드 실험-->
+    <!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+			<script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+			<script type="module">
+				import { Fancybox } from "https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.esm.js";
+			  </script>
+			<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+			<script>
+				var menuBtn = document.getElementById("menuBtn");
+				var sideNav = document.getElementById("sideNav");
+				sideNav.style.right = "-250px";
+				menuBtn.onclick = function(){
+					if(sideNav.style.right == "-250px"){
+						sideNav.style.right = "0";
+					}
+					else{
+						sideNav.style.right = "-250px";
+					}
+				}
+				var scroll = new SmoothScroll('a[href*="#"]',{
+					speed: 1000,
+					speedAsDuration: true
+				});
+				AOS.init();				
+			</script>
+</body>
+</html>
