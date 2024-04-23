@@ -233,6 +233,9 @@
     line-height:4;
 }
 
+.text9{
+    line-height:2 !important;
+}
 /*** Section Header ***/
 .section-header {
     position: relative;
