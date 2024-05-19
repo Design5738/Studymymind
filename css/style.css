@@ -185,11 +185,13 @@
     justify-content: center;
     text-align: start;
     z-index: 1;
+    transition: 10s !important;
 }
 
 .carousel-control-prev,
 .carousel-control-next {
     width: 15%;
+    transition: 10s !important;
 }
 
 .carousel-control-prev-icon,
@@ -268,7 +270,7 @@
 .section-header.text-start::before,
 .section-header.text-start::after {
     left: 0;
-    transform: translateX(0);
+    transform: translateX(10000);
 }
 
 
@@ -332,7 +334,7 @@
 
 .testimonial-carousel .owl-item .testimonial-item,
 .testimonial-carousel .owl-item .testimonial-item * {
-    transition: .5s;
+    transition: 0.1s ;
 }
 
 .testimonial-carousel .owl-item.center .testimonial-item {
@@ -365,7 +367,7 @@
     border: 2px solid var(--primary);
     border-radius: 50px;
     font-size: 18px;
-    transition: .5s;
+    transition: 10s !important;
 }
 
 .testimonial-carousel .owl-nav .owl-prev:hover,
